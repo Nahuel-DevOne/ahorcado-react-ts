@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
 import {HangImage} from './components/HangImage';
 import { letters } from './helpers/letters';
-import './App.css';
 import { getRandomWord } from './helpers/getRandomWord';
+import Header from './components/Header';
+import './App.css';
 
 function App() {
   
@@ -15,7 +16,7 @@ function App() {
 
   // Determinar si la persona perdió
   useEffect(() => {
-    if(attemps === 9){
+    if(attemps === 8){
       setLose(true);
     }
   }, [attemps])
@@ -63,6 +64,9 @@ function App() {
 
   return (
     <div className="App">
+
+          {/* Header */}
+          <Header />
 
           {/* Imágenes */}
           <HangImage imageNumber = {attemps} />

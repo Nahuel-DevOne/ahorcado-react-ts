@@ -4,14 +4,38 @@ body {
   display: flex;
   flex-flow: row wrap;
   min-width: 270px;
-  min-height: 100vh;
+  max-height: 90vh;
+  background-color: lightgrey;
+}
+
+h1{
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  color: rgb(17, 55, 101);
 }
 
 button{
-  margin: 5px;
+  margin: 10px;
+  background-color: rgb(14, 118, 238);
+  color: white;
+  border: 2px solid rgb(0, 5, 11);
 }
 
 .hang-image{
-  width: 15vw;
+  width: 18vw;
   height: auto;
+}
+
+@media(max-width: 768px){
+  .hang-image{
+    width: 30vw;
+  }
+  body{
+    margin: 0.5rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
 }

@@ -7,7 +7,6 @@ import image5 from '../assets/5.png';
 import image6 from '../assets/6.png';
 import image7 from '../assets/7.png';
 import image8 from '../assets/8.png';
-import image9 from '../assets/9.png';
 
 const images: string[] = [
     image0,
@@ -18,8 +17,7 @@ const images: string[] = [
     image5,
     image6,
     image7,
-    image8,
-    image9
+    image8
 ]
 
 interface Props{
@@ -28,8 +26,8 @@ interface Props{
 
 export function HangImage({imageNumber}: Props) {
 
-    if(imageNumber >= 9){
-        imageNumber = 9;
+    if(imageNumber >= 8){
+        imageNumber = 8;
     }
 
     return (
@@ -37,7 +35,6 @@ export function HangImage({imageNumber}: Props) {
             className='hang-image' 
             src={images[imageNumber]} 
             alt="Imagen del ahorcado"
-            // style={{width: 250}}
         />
     )
 }
