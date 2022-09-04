@@ -1,0 +1,17 @@
+
+body {
+  margin: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  min-width: 270px;
+  min-height: 100vh;
+}
+
+button{
+  margin: 5px;
+}
+
+.hang-image{
+  width: 15vw;
+  height: auto;
+}
