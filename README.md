@@ -11,7 +11,7 @@ El clásico juego de ahorcado, hecho con React y TypeScript.
 
 ## *Version 1.0.0:*
 
-- [![App](https://img.shields.io/badge/App-informational?style=for-the-badge&logo=netlify&logoColor=fff&color=23272d)](https://...)
+- [![App](https://img.shields.io/badge/App-informational?style=for-the-badge&logo=netlify&logoColor=fff&color=23272d)](https://ahorcado-react-ts.netlify.app/)
 
 - No tiene incorporada ninguna base de datos
 
